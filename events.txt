@@ -1,0 +1,8 @@
+eventID	owner	name 	description	start_name	end_time	location	venue	privacy
+1	4	7th CYPRUS INTERNATIONAL TATTOO CONVENTION 2020	4/4/2021 13:00	5/4/2020 00:00	22	111	open
+2	1	Street Food Festival	Street food, drinks and dancing are all that the organizers of the 1st Street Food Festival Cyprus promise to the public.	1/1/20 16:00	3/1/2020 18:00	122	45	open				
+3	1	CERAMIC RESTORATIONS AND CAD-CAM VENEERS	This course offers an exceptional practical experience to all dentists to design, mill, stain and glaze functional aesthetic all ceramic restorations directly and immediately in the dental office. You will learn how to customize shade, form and surface effects to mimic nature and produce natural anatomy and function using CAD/CAM technology.	5/12/2020 8:00	5/12/2020 14:00	1	55	closed		
+4	1	Cookies and Cocoa with The Grinch	A Virtual Grinchmas Holiday Party for Families.	6/12/2020 13:00	6/12/2020 14:30	35	49	open
+5	6	fashion show	All about clothes	25/1/2021 18:00	25/1/2021 21:00	5	4	open
+6	2	cartoons theater	Mikey and friend come to play and fun with kids	30/12/2020 19:00 open
+			
