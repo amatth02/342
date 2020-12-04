@@ -1,0 +1,14 @@
+userID	first_name	last_name	gender	hometown	location	birthday	link						work			education		email			website		quotes	interested_in	verified		
+1	Julius	Northam	0	101		22		06/08/1982	https://www.SocialFace.com/Julius.Northam/	chef			axik			northam@gmail.com			The only joy in the world is to begin.	26,49	0
+2	Joos	Rendell	0	139		52		02/06/1968	https://www.SocialFace.com/Joos.Rendell/	teacher			University of Cyprus 	rendell@hotmail.com		62	1
+3	Allan	Shopland	0	56		1		26/06/1965	https://www.SocialFace.com/Allan.Shopland/							shopland@gmail.com			Nobody can be uncheered with a balloon.	35,32	1
+4	Gerrard	Bickford	0	62		100		13/03/1988	https://www.SocialFace.com/Gerrard.Bickford/	actor	Sxoli Steliou Kafkaride	gerrard@outlook.com			Happiness is not something ready-made.	95,81	0
+4	Gerrard	Bickford	0	62		100		13/03/1988	https://www.SocialFace.com/Gerrard.Bickford/	singer	Sxoli Steliou Kafkaride	gerrard@outlook.com			Happiness is not something ready-made.	95,81	0
+5	Christian	Strong	0	127		12		10/10/1963	https://www.SocialFace.com/Christian.Strong/	baristas					christian@gma il.com			Happiness depends upon ourselves.	63	0
+5	Christian	Strong	0	127		12		10/10/1963	https://www.SocialFace.com/Christian.Strong/	waiter	christian@gma il.com			Happiness depends upon ourselves.	63	0
+6	Petros	Bracey	0	20		182		10/03/1980	https://www.SocialFace.com/Petros.Bracey/	fashion designer				petros@hotmail.com			A friend is someone who knows all about you and still loves you.	10,54,6	0
+7	Archilai	Pryor		0	64		10		07/08/1974	https://www.SocialFace.com/Archilai.Bickford/	lawyer			University of Cyprus	archilai@hotmail.com	The more one judges, the less one loves.	4	0
+8	Bevil	Gassick	0	127		189		29/08/1986	https://www.SocialFace.com/Bevil.Gassick/	doctor			University of Cyprus	gassick@ucy.ac.cy	Life without love is like a tree without blossoms or fruit.	64,13	1
+9	Susanne	ox	0	33		74		22/04/1979	https://www.SocialFace.com/Susanne.ox/		electrical engineer	University of Cyprus	ox@gmail.com	Happiness is a state of activity.	77	1
+10	Dimitri	Finch	0	52		69		09/01/1974	https://www.SocialFace.com/Dimitri.Finch/	nurse			Tepak			finch.outlook.com	Time you enjoy wasting is not wasted time.	3	1
+	
