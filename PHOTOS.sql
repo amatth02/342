@@ -1,0 +1,14 @@
+CREATE TABLE [dbo].[PHOTOS](
+	[photosID] [int] NOT NULL,
+	[userID] [int] NOT NULL,
+	[source] [image] NOT NULL,
+	[height] [int] NOT NULL,
+	[width] [int] NOT NULL,
+	[link] [nvarchar](50) NOT NULL,
+	[likes] [int] NOT NULL,
+ CONSTRAINT [PK_PHOTOS] PRIMARY KEY CLUSTERED 
+(
+	[photosID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
