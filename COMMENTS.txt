@@ -1,0 +1,19 @@
+commentsID	userID	albumID	videoID	comments
+1	1	1	 	What a nice family
+2	2	3	 	Your friends are the best
+3	3	3	 	We look so good
+4	4	4		Cute kitten
+5	4	 	3	...
+6	5	5	 	What a cute dog
+7	6	6	 	Such a wonderful night
+8	7	6	 	It was great, thank you for coming
+9	8	7	 	Where is that? Looks amazing
+10	9	8	 	WOW, Congats!!	
+11	10	9	 	Wonderful trip!
+12	11	10	 	Hope you have a great Christmas day and New Year's Eve.	 
+13	12	2	 	You are so beautiful
+14	12	 	5	...
+15	13	 	1	...
+16	14	 	4	...	
+17	15	 	3	...
+18	16	 	2	...

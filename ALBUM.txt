@@ -1,0 +1,10 @@
+albumID	userID	name	description	location	link	privacy	count	comments	photos
+1	5	Family	My family in vacation	2	https://socialaface.com/5/album	open	2	1	
+2	4	Me	Photos Of me	3	https://socialface.com/4/album	closed	5	
+3	9	Friends	Photos of my friends	7	https://socialface.com/15/album	friends	4	3	
+4	6	My cat	My sweet little kitten	5	https://socialface.com/	closed	4	4
+5	3	My dog	Doggie	1	https://socialface.com/4/album	network	20	5
+6	2	Night Out	It was a great night	8	https://socialface.com/2/album	open	2	6
+7	1	Trip A sunday trip	10	https://socialface.com/1/album	network	30	7
+8	6	Sister's Graduation	Finally, she got her bachelor	9 https://socialface.com/7/album	closed	5	8	
+9	8	School Trip	The last school trip	1	https://socialaface.com/8/album	10	9
