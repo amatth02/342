@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[CITY](
+	[cityID] [int] NOT NULL,
+	[city_name] [nvarchar](50) NOT NULL,
+	[zipcode] [int] NOT NULL,
+	[address] [nvarchar](50) NOT NULL,
+	[num] [int] NOT NULL,
+ CONSTRAINT [PK_CITY] PRIMARY KEY CLUSTERED 
+(
+	[cityID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
