@@ -93,10 +93,12 @@ public class Settings extends JFrame {
 	 * Create the frame.
 	 */
 	public Settings() {
+		setTitle("SocialFace");
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Georgia\\Workspace\\EPL342\\src\\logo.jpg"));
 		
 	//	contentPane.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\Workspace\\EPL342\\src\\logo.jpg"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 248, 341);
+		setBounds(100, 100, 252, 399);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -110,19 +112,19 @@ public class Settings extends JFrame {
 			}
 		});
 		btnNewButton.setIcon(new ImageIcon("C:\\Users\\Georgia\\Workspace\\EPL342\\Settings-2-icon.png"));
-		btnNewButton.setBounds(38, 32, 145, 62);
+		btnNewButton.setBounds(38, 58, 145, 62);
 		contentPane.add(btnNewButton);
 		
 		JSeparator separator = new JSeparator();
-		separator.setBounds(38, 123, 145, 2);
+		separator.setBounds(38, 142, 145, 2);
 		contentPane.add(separator);
 		
 		JLabel lblUsername = new JLabel("Username");
-		lblUsername.setBounds(66, 138, 71, 16);
+		lblUsername.setBounds(74, 157, 71, 16);
 		contentPane.add(lblUsername);
 		
 		JSeparator separator_1 = new JSeparator();
-		separator_1.setBounds(38, 167, 145, 2);
+		separator_1.setBounds(38, 201, 145, 2);
 		contentPane.add(separator_1);
 		
 		JButton btnSignOut = new JButton("Sign out");
@@ -135,8 +137,19 @@ public class Settings extends JFrame {
 			}
 		});
 		btnSignOut.setIcon(new ImageIcon("C:\\Users\\Georgia\\Workspace\\EPL342\\general_pack_new_glyph_logout_.png"));
-		btnSignOut.setBounds(38, 182, 145, 55);
+		btnSignOut.setBounds(38, 216, 145, 55);
 		contentPane.add(btnSignOut);
+		
+		JButton button = new JButton("");
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				UserProfile nw = new UserProfile();
+				nw.profile();
+			}
+		});
+		button.setIcon(new ImageIcon("C:\\Users\\Georgia\\Workspace\\EPL342\\Arrow-Back-4-icon.png"));
+		button.setBounds(0, 327, 41, 25);
+		contentPane.add(button);
 	
 	
 	}
