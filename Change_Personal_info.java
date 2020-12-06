@@ -16,7 +16,7 @@ import javax.swing.SwingConstants;
 
 public class Change_Personal_info {
 
-	private JFrame frame;
+	private JFrame frmSocialface;
 
 	/**
 	 * Launch the application.
@@ -26,7 +26,7 @@ public class Change_Personal_info {
 			public void run() {
 				try {
 					Change_Personal_info window = new Change_Personal_info();
-					window.frame.setVisible(true);
+					window.frmSocialface.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -45,10 +45,12 @@ public class Change_Personal_info {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame();
-		frame.setBounds(100, 100, 474, 468);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().setLayout(null);
+		frmSocialface = new JFrame();
+		frmSocialface.setTitle("SocialFace");
+		frmSocialface.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Georgia\\Workspace\\EPL342\\src\\logo.jpg"));
+		frmSocialface.setBounds(100, 100, 474, 468);
+		frmSocialface.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frmSocialface.getContentPane().setLayout(null);
 		
 		JButton btnSaveAndBack = new JButton("Save");
 		btnSaveAndBack.addActionListener(new ActionListener() {
@@ -58,48 +60,48 @@ public class Change_Personal_info {
 			}
 		});
 		btnSaveAndBack.setBounds(81, 225, 202, 25);
-		frame.getContentPane().add(btnSaveAndBack);
+		frmSocialface.getContentPane().add(btnSaveAndBack);
 		
 		JLabel lblNewLabel = new JLabel("Name");
 		lblNewLabel.setBounds(25, 95, 56, 16);
-		frame.getContentPane().add(lblNewLabel);
+		frmSocialface.getContentPane().add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("Change personal informations");
 		lblNewLabel_1.setBounds(25, 44, 182, 16);
-		frame.getContentPane().add(lblNewLabel_1);
+		frmSocialface.getContentPane().add(lblNewLabel_1);
 		
 		JEditorPane dtrpnUsername = new JEditorPane();
 		dtrpnUsername.setText("Username\r\n");
 		dtrpnUsername.setBounds(114, 95, 159, 22);
-		frame.getContentPane().add(dtrpnUsername);
+		frmSocialface.getContentPane().add(dtrpnUsername);
 		
 		JLabel lblDateOfBirth = new JLabel("Birthday");
 		lblDateOfBirth.setBounds(25, 125, 85, 16);
-		frame.getContentPane().add(lblDateOfBirth);
+		frmSocialface.getContentPane().add(lblDateOfBirth);
 		
 		JLabel lblNewLabel_2 = new JLabel("Email");
 		lblNewLabel_2.setBounds(25, 154, 75, 16);
-		frame.getContentPane().add(lblNewLabel_2);
+		frmSocialface.getContentPane().add(lblNewLabel_2);
 		
 		JLabel lblNewLabel_3 = new JLabel("");
 		lblNewLabel_3.setBounds(25, 183, 56, 16);
-		frame.getContentPane().add(lblNewLabel_3);
+		frmSocialface.getContentPane().add(lblNewLabel_3);
 		
 		JEditorPane editorPane = new JEditorPane();
 		editorPane.setBounds(114, 122, 159, 22);
-		frame.getContentPane().add(editorPane);
+		frmSocialface.getContentPane().add(editorPane);
 		
 		JEditorPane editorPane_1 = new JEditorPane();
 		editorPane_1.setBounds(112, 154, 202, 22);
-		frame.getContentPane().add(editorPane_1);
+		frmSocialface.getContentPane().add(editorPane_1);
 		
 		JSeparator separator = new JSeparator();
 		separator.setOrientation(SwingConstants.VERTICAL);
 		separator.setBounds(351, 24, 14, 365);
-		frame.getContentPane().add(separator);
+		frmSocialface.getContentPane().add(separator);
 		
 		JSeparator separator_1 = new JSeparator();
 		separator_1.setBounds(25, 296, 407, 2);
-		frame.getContentPane().add(separator_1);
+		frmSocialface.getContentPane().add(separator_1);
 	}
 }
