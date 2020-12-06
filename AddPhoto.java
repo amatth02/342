@@ -5,6 +5,8 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import java.awt.Toolkit;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class AddPhoto {
 
@@ -39,7 +41,7 @@ public class AddPhoto {
 	private void initialize() {
 		frmSocialface = new JFrame();
 		frmSocialface.setTitle("SocialFace");
-		frmSocialface.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\eclipse-workspace\\EPL342\\src\\logo.jpg"));
+		frmSocialface.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\Workspace\\EPL342\\src\\logo.jpg"));
 		frmSocialface.setBounds(100, 100, 323, 322);
 		frmSocialface.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmSocialface.getContentPane().setLayout(null);
@@ -52,5 +54,15 @@ public class AddPhoto {
 		JButton btnChooseFromLibrary = new JButton("Choose From Library");
 		btnChooseFromLibrary.setBounds(34, 144, 170, 25);
 		frmSocialface.getContentPane().add(btnChooseFromLibrary);
+		
+		JButton btnSave = new JButton("Save");
+		btnSave.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				UserProfile nw = new UserProfile();
+				nw.profile();
+			}
+		});
+		btnSave.setBounds(64, 206, 97, 25);
+		frmSocialface.getContentPane().add(btnSave);
 	}
 }
