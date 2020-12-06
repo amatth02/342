@@ -37,6 +37,8 @@ import javax.swing.JButton;
 import javax.swing.ImageIcon;
 import java.awt.Color;
 import java.awt.SystemColor;
+import java.awt.Toolkit;
+
 import javax.swing.JPanel;
 import javax.swing.border.TitledBorder;
 import java.awt.event.ActionEvent;
@@ -91,6 +93,8 @@ public class Settings extends JFrame {
 	 * Create the frame.
 	 */
 	public Settings() {
+		
+	//	contentPane.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\Workspace\\EPL342\\src\\logo.jpg"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 248, 341);
 		contentPane = new JPanel();
