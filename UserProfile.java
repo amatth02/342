@@ -53,13 +53,13 @@ public class UserProfile {
 	private void initialize() {
 		frmSocialface = new JFrame();
 		frmSocialface.setTitle("SocialFace");
-		frmSocialface.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\eclipse-workspace\\EPL342\\src\\logo.jpg"));
+		frmSocialface.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Georgia\\Workspace\\EPL342\\src\\logo.jpg"));
 		frmSocialface.setBounds(100, 100, 595, 723);
 		frmSocialface.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmSocialface.getContentPane().setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\User\\eclipse-workspace\\EPL342\\src\\profile-icon.png"));
+		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Georgia\\Workspace\\EPL342\\src\\profile-icon.png"));
 		lblNewLabel.setBounds(69, 50, 57, 77);
 		frmSocialface.getContentPane().add(lblNewLabel);
 		
@@ -94,7 +94,7 @@ public class UserProfile {
 				nw.button();
 			}
 		});
-		button.setIcon(new ImageIcon("C:\\Users\\User\\eclipse-workspace\\EPL342\\src\\Menu-icon.png"));
+		button.setIcon(new ImageIcon("C:\\Users\\Georgia\\Workspace\\EPL342\\src\\Menu-icon.png"));
 		button.setBounds(508, 13, 57, 41);
 		frmSocialface.getContentPane().add(button);
 		
@@ -147,10 +147,5 @@ public class UserProfile {
 		frmSocialface.getContentPane().add(btnQuotes);
 		
 		String []strcombo = {"Add Photo", "Add Video", "Add Album", "Add Event", "Add Quote"};
-		JComboBox comboBox1 = new JComboBox(strcombo);
-		comboBox1.setBounds(436, 13, 66, 41);
-		comboBox1.setSelectedIndex(2);
-		//comboBox.addActionListener((ActionListener) this);
-		frmSocialface.getContentPane().add(comboBox1);
 	}
 }
