@@ -44,7 +44,7 @@ public class Settings_Priv {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setTitle("SocialFace");
-		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\Workspace\\EPL342\\src\\logo.jpg"));
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Georgia\\Workspace\\EPL342\\src\\logo.jpg"));
 		frame.setBounds(100, 100, 335, 419);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
