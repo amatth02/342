@@ -1,4 +1,5 @@
 import java.awt.EventQueue;
+import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 import javax.swing.JButton;
@@ -68,7 +69,7 @@ public class Change_Personal_info {
 		frame.getContentPane().add(lblNewLabel_1);
 		
 		JEditorPane dtrpnUsername = new JEditorPane();
-		dtrpnUsername.setText("Username");
+		dtrpnUsername.setText("Username\r\n");
 		dtrpnUsername.setBounds(114, 95, 159, 22);
 		frame.getContentPane().add(dtrpnUsername);
 		
