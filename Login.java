@@ -5,6 +5,8 @@ import javax.swing.JButton;
 import java.awt.BorderLayout;
 import javax.swing.JTextArea;
 import java.awt.Font;
+import java.awt.Toolkit;
+
 import javax.swing.DropMode;
 import javax.swing.JPasswordField;
 import javax.swing.SwingConstants;
@@ -53,6 +55,8 @@ public class Login {
 	 */
 	private void initialize() {
 		frame = new JFrame();
+		frame.setTitle("SocialFace");
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\Workspace\\EPL342\\src\\logo.jpg"));
 		frame.setBackground(Color.WHITE);
 		frame.setBounds(100, 100, 870, 473);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
