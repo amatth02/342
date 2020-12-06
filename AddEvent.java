@@ -5,8 +5,12 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.JTextField;
 import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.JTextPane;
 import javax.swing.JList;
+import javax.swing.JButton;
 import javax.swing.JComboBox;
 
 public class AddEvent {
@@ -50,7 +54,7 @@ public class AddEvent {
 		frmSocialface = new JFrame();
 		frmSocialface.setTitle("SocialFace");
 		frmSocialface.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\eclipse-workspace\\EPL342\\src\\logo.jpg"));
-		frmSocialface.setBounds(100, 100, 497, 449);
+		frmSocialface.setBounds(100, 100, 441, 500);
 		frmSocialface.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmSocialface.getContentPane().setLayout(null);
 		
@@ -130,5 +134,17 @@ public class AddEvent {
 		textField_6.setBounds(186, 146, 116, 22);
 		frmSocialface.getContentPane().add(textField_6);
 		textField_6.setColumns(10);
+		
+		JButton btnSave = new JButton("Save");
+		btnSave.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				UserProfile nw = new UserProfile();
+				nw.profile();
+			}
+		});
+		btnSave.setBounds(115, 396, 97, 25);
+		frmSocialface.getContentPane().add(btnSave);
+		
+		
 	}
 }
