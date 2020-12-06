@@ -5,11 +5,15 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.JTextField;
 import java.awt.Toolkit;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class AddQuote {
 
 	private JFrame frmSocialface;
 	private JTextField txtIsYourTime;
+	private JButton btnSave;
 
 	/**
 	 * Launch the application.
@@ -56,5 +60,15 @@ public class AddQuote {
 		txtIsYourTime.setBounds(94, 144, 231, 28);
 		frmSocialface.getContentPane().add(txtIsYourTime);
 		txtIsYourTime.setColumns(10);
+		
+		btnSave = new JButton("Save");
+		btnSave.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				UserProfile nw = new UserProfile();
+				nw.profile();
+			}
+		});
+		btnSave.setBounds(148, 249, 97, 25);
+		frmSocialface.getContentPane().add(btnSave);
 	}
 }
