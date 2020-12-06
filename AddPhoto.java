@@ -41,7 +41,7 @@ public class AddPhoto {
 	private void initialize() {
 		frmSocialface = new JFrame();
 		frmSocialface.setTitle("SocialFace");
-		frmSocialface.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\Workspace\\EPL342\\src\\logo.jpg"));
+		frmSocialface.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Georgia\\Workspace\\EPL342\\src\\logo.jpg"));
 		frmSocialface.setBounds(100, 100, 323, 322);
 		frmSocialface.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmSocialface.getContentPane().setLayout(null);
