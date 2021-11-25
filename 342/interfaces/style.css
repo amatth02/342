@@ -5,21 +5,12 @@
   box-sizing: border-box;
 }
 .full-page     /*setting the background and position of the image*/
-{/*
+{
   height: 100%;
   width: 100%
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(C:\Users\User\Documents\SQL Server Management Studio\Project 342\images/background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(images/background.png);
   background-position: center;
   background-size: cover;
-  position: absolute;
-
-*/
-  background-image: url("C:\Users\User\Documents\SQL Server Management Studio\Project 342\images\background.jpg"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 100%; /* You must set a specified height */
-  width: 100%;
-  background-position: center; /* Center the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
   position: absolute;
 }
 .navbar           /*setting the dimensions of the navigation bar*/
